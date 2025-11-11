@@ -1,0 +1,554 @@
+[
+    {
+        "companyname":"ZA10-ZA10-KTSA",
+        "companyID":490518,
+        "ProfitCenterName":"3410-CAPETOWN",
+        "ProfitCenterID":3410
+    },
+    {
+        "companyname":"ZA10-ZA10-KTSA",
+        "companyID":490518,
+        "ProfitCenterName":"3400-JO BURG",
+        "ProfitCenterID":3400
+    },
+    {
+        "companyname":"EG10-EG10-KTNE",
+        "companyID":438329,
+        "ProfitCenterName":"3200-KTNE",
+        "ProfitCenterID":3200
+    },
+    {
+        "companyname":"NG70-NG70-Guinness Nigeria",
+        "companyID":283271,
+        "ProfitCenterName":"7001-Ogba",
+        "ProfitCenterID":7001
+    },
+    {
+        "companyname":"NG70-NG70-Guinness Nigeria",
+        "companyID":283271,
+        "ProfitCenterName":"7004-GN-Corporte (HQ)",
+        "ProfitCenterID":7004
+    },
+    {
+        "companyname":"NG70-NG70-Guinness Nigeria",
+        "companyID":283271,
+        "ProfitCenterName":"7003-Aba",
+        "ProfitCenterID":7003
+    },
+    {
+        "companyname":"NG70-NG70-Guinness Nigeria",
+        "companyID":283271,
+        "ProfitCenterName":"7002-Benin",
+        "ProfitCenterID":7002
+    },
+    {
+        "companyname":"NG30-NG30-KTNL",
+        "companyID":277170,
+        "ProfitCenterName":"3000-KTNL",
+        "ProfitCenterID":3000
+    },
+    {
+        "companyname":"NG31-NG31-KTLFTZ",
+        "companyID":277166,
+        "ProfitCenterName":"3100-KTLFTZ",
+        "ProfitCenterID":3100
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2010-CORPORATE",
+        "ProfitCenterID":2010
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2013-NORTH",
+        "ProfitCenterID":2013
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2014-EAST",
+        "ProfitCenterID":2014
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2018-SMT",
+        "ProfitCenterID":2018
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2015-CENTRAL",
+        "ProfitCenterID":2015
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2016-CORPORATE",
+        "ProfitCenterID":2016
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2011-LAGOS 1",
+        "ProfitCenterID":2011
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2012-LAGOS 2",
+        "ProfitCenterID":2012
+    },
+    {
+        "companyname":"NG50-NG50 - MCPL-S&D",
+        "companyID":224873,
+        "ProfitCenterName":"2017-CORPORATE",
+        "ProfitCenterID":2017
+    },
+    {
+        "companyname":"SG76-N-SEVEN PTE LTD",
+        "companyID":221390,
+        "ProfitCenterName":"3016-N-SEVEN PTE LTD",
+        "ProfitCenterID":3016
+    },
+    {
+        "companyname":"NX62-RNL",
+        "companyID":214827,
+        "ProfitCenterName":"2200-RNL",
+        "ProfitCenterID":2200
+    },
+    {
+        "companyname":"NX61-P2P",
+        "companyID":214826,
+        "ProfitCenterName":"2100-P2P",
+        "ProfitCenterID":2100
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6102-BRAZIWOOL LAGOS-2",
+        "ProfitCenterID":6102
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6207-WET HAIR BENIN PLANT",
+        "ProfitCenterID":6207
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6206-WET HAIR SOUTH WEST",
+        "ProfitCenterID":6206
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6205-WET HAIR EAST",
+        "ProfitCenterID":6205
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6001-DRY HAIR LAGOS-1",
+        "ProfitCenterID":6001
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6002-DRY HAIR LAGOS-2",
+        "ProfitCenterID":6002
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6003-DRY HAIR CENTRAL",
+        "ProfitCenterID":6003
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6004-DRY HAIR NORTH",
+        "ProfitCenterID":6004
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6005-DRY HAIR EAST",
+        "ProfitCenterID":6005
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6006-DRY HAIR SOUTH WEST",
+        "ProfitCenterID":6006
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6007-DRY HAIR BENIN PLANT",
+        "ProfitCenterID":6007
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6101-BRAZIWOOL LAGOS-1",
+        "ProfitCenterID":6101
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6301-CARPET LAGOS-2",
+        "ProfitCenterID":6301
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6103-BRAZIWOOL CENTRAL",
+        "ProfitCenterID":6103
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6104-BRAZIWOOL NORTH",
+        "ProfitCenterID":6104
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6105-BRAZIWOOL EAST",
+        "ProfitCenterID":6105
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6106-BRAZIWOOL SOUTH WEST",
+        "ProfitCenterID":6106
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6107-BRAZIWOOL BENIN PLANT",
+        "ProfitCenterID":6107
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6201-WET HAIR LAGOS-1",
+        "ProfitCenterID":6201
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6202-WET HAIR LAGOS-2",
+        "ProfitCenterID":6202
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6203-WET HAIR CENTRAL",
+        "ProfitCenterID":6203
+    },
+    {
+        "companyname":"NG61-NG61-LFN(LUSH NIGERIA)",
+        "companyID":177306,
+        "ProfitCenterName":"6204-WET HAIR NORTH",
+        "ProfitCenterID":6204
+    },
+    {
+        "companyname":"NG60-NG60-MCPL-BHN",
+        "companyID":177300,
+        "ProfitCenterName":"2530-BHN-CHOBA",
+        "ProfitCenterID":2530
+    },
+    {
+        "companyname":"NG60-NG60-MCPL-BHN",
+        "companyID":177300,
+        "ProfitCenterName":"2540-BHN-CALABAR",
+        "ProfitCenterID":2540
+    },
+    {
+        "companyname":"NG60-NG60-MCPL-BHN",
+        "companyID":177300,
+        "ProfitCenterName":"2520-BHN-KADUNA",
+        "ProfitCenterID":2520
+    },
+    {
+        "companyname":"NG60-NG60-MCPL-BHN",
+        "companyID":177300,
+        "ProfitCenterName":"2510-BHN-LAGOS",
+        "ProfitCenterID":2510
+    },
+    {
+        "companyname":"GH61-GH61-Lush Ghana",
+        "companyID":146363,
+        "ProfitCenterName":"2220-ACCRA-DRY",
+        "ProfitCenterID":2220
+    },
+    {
+        "companyname":"GH61-GH61-Lush Ghana",
+        "companyID":146363,
+        "ProfitCenterName":"2222-EAST-DRY",
+        "ProfitCenterID":2222
+    },
+    {
+        "companyname":"GH61-GH61-Lush Ghana",
+        "companyID":146363,
+        "ProfitCenterName":"2221-ASHANTI-DRY",
+        "ProfitCenterID":2221
+    },
+    {
+        "companyname":"SG74-SG74-T-SEVEN LTD",
+        "companyID":107575,
+        "ProfitCenterName":"3014-T-SEVEN LTD",
+        "ProfitCenterID":3014
+    },
+    {
+        "companyname":"SG73-SG73-TOLARAM PERSONAL CARE PL",
+        "companyID":107574,
+        "ProfitCenterName":"3013-TOLARAM PERSONAL CARE PL",
+        "ProfitCenterID":3013
+    },
+    {
+        "companyname":"SG72-SG72-TOLARAM AFRICA PTE LTD",
+        "companyID":107573,
+        "ProfitCenterName":"3012-TOLARAM AFRICA PTE LTD",
+        "ProfitCenterID":3012
+    },
+    {
+        "companyname":"SG71-SG71-TOLARAM CAPITAL PTE LTD",
+        "companyID":107572,
+        "ProfitCenterName":"3011-TOLARAM CAPITAL PTE LTD",
+        "ProfitCenterID":3011
+    },
+    {
+        "companyname":"SG70-SG70-TOLARAM FINTECH PTE LTD",
+        "companyID":107571,
+        "ProfitCenterName":"3010-TOLARAM FINTECH PTE LTD",
+        "ProfitCenterID":3010
+    },
+    {
+        "companyname":"SG69-SG69-TOLARAM AFRICA FOODS PL",
+        "companyID":107570,
+        "ProfitCenterName":"3009-TOLARAM AFRICA FOODS PL",
+        "ProfitCenterID":3009
+    },
+    {
+        "companyname":"SG68-SG68-TOLARAM CORPORATION PL",
+        "companyID":107569,
+        "ProfitCenterName":"3008-TOLARAM CORPORATION PL",
+        "ProfitCenterID":3008
+    },
+    {
+        "companyname":"SG67-SG67-KELLOGG TOLARAM NOODLES S",
+        "companyID":107568,
+        "ProfitCenterName":"3007-KELLOGG TOLARAM NOODLES S",
+        "ProfitCenterID":3007
+    },
+    {
+        "companyname":"SG66-SG66-TOLARAM INDUSTRIES PL",
+        "companyID":107567,
+        "ProfitCenterName":"3006-TOLARAM INDUSTRIES PL",
+        "ProfitCenterID":3006
+    },
+    {
+        "companyname":"SG65-SG65-FRENN GLOBAL PTE LTD",
+        "companyID":107566,
+        "ProfitCenterName":"3005-FRENN GLOBAL PTE LTD",
+        "ProfitCenterID":3005
+    },
+    {
+        "companyname":"SG64-SG64-EUROCHEM CORPORATION PTE",
+        "companyID":107565,
+        "ProfitCenterName":"3004-EUROCHEM CORPORATION PTE",
+        "ProfitCenterID":3004
+    },
+    {
+        "companyname":"SG63-SG63-COLGATE TOLARAM PTE LTD",
+        "companyID":107564,
+        "ProfitCenterName":"3003-COLGATE TOLARAM PTE LTD",
+        "ProfitCenterID":3003
+    },
+    {
+        "companyname":"SG62-SG62-CONRAD ASIAN VENTURES LTD",
+        "companyID":107563,
+        "ProfitCenterName":"3002-CONRAD ASIAN VENTURES LTD",
+        "ProfitCenterID":3002
+    },
+    {
+        "companyname":"SG61-SG61-ARPN PTE LTD",
+        "companyID":107562,
+        "ProfitCenterName":"3001-ARPN PTE LTD",
+        "ProfitCenterID":3001
+    },
+    {
+        "companyname":"SG75-SG75-TOLARAM PTE LTD",
+        "companyID":107553,
+        "ProfitCenterName":"3015-TOLARAM PTE LTD",
+        "ProfitCenterID":3015
+    },
+    {
+        "companyname":"NG12-NG12-Raffles Oil LFZ",
+        "companyID":76551,
+        "ProfitCenterName":"1410-Raffles Oil LFZ",
+        "ProfitCenterID":1410
+    },
+    {
+        "companyname":"NG11-NG11-Insignia Print Technology LFZ",
+        "companyID":76550,
+        "ProfitCenterName":"1710-Insignia Print Technology LFZ",
+        "ProfitCenterID":1710
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1111-Dufil PHC Noodles",
+        "ProfitCenterID":1111
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1510-PHC Flour Mill",
+        "ProfitCenterID":1510
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1210-PHC Pasta",
+        "ProfitCenterID":1210
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1310-PHC Snacks",
+        "ProfitCenterID":1310
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1114-Aba Noodles",
+        "ProfitCenterID":1114
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1010-Dufil Corporate",
+        "ProfitCenterID":1010
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1112-Dufil Kaduna Noodles",
+        "ProfitCenterID":1112
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1810-Dufil Ota Seasoning",
+        "ProfitCenterID":1810
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1211-Aba Pasta",
+        "ProfitCenterID":1211
+    },
+    {
+        "companyname":"NG10-NG10-Dufil Prima Foods Plc",
+        "companyID":16456,
+        "ProfitCenterName":"1110-Dufil Ota Noodles",
+        "ProfitCenterID":1110
+    },
+    {
+        "companyname":"NG81-NG81-Green Packagings LFZ Enterprise",
+        "companyID":13832,
+        "ProfitCenterName":"8020-GPL LFZ",
+        "ProfitCenterID":8020
+    },
+    {
+        "companyname":"NG80-NG80-Green Packagings Limited",
+        "companyID":13831,
+        "ProfitCenterName":"8010-GPL SURULERE",
+        "ProfitCenterID":8010
+    },
+    {
+        "companyname":"TG-TG CORPORATE",
+        "companyID":4455,
+        "ProfitCenterName":"1-Not Applicable",
+        "ProfitCenterID":1
+    },
+    {
+        "companyname":"GH10-GH10-Dufil Ghana Ltd",
+        "companyID":2975,
+        "ProfitCenterName":"1113-Dufil Ghana Ltd",
+        "ProfitCenterID":1113
+    },
+    {
+        "companyname":"GH50-GH50-Multipro Pvt Ltd",
+        "companyID":2974,
+        "ProfitCenterName":"2032-MPL WEST",
+        "ProfitCenterID":2032
+    },
+    {
+        "companyname":"GH50-GH50-Multipro Pvt Ltd",
+        "companyID":2974,
+        "ProfitCenterName":"2034-MPL NORTH",
+        "ProfitCenterID":2034
+    },
+    {
+        "companyname":"GH50-GH50-Multipro Pvt Ltd",
+        "companyID":2974,
+        "ProfitCenterName":"2033-MPL EAST",
+        "ProfitCenterID":2033
+    },
+    {
+        "companyname":"GH50-GH50-Multipro Pvt Ltd",
+        "companyID":2974,
+        "ProfitCenterName":"2031-MPL ASHANTI",
+        "ProfitCenterID":2031
+    },
+    {
+        "companyname":"GH50-GH50-Multipro Pvt Ltd",
+        "companyID":2974,
+        "ProfitCenterName":"2030-MPL ACCRA",
+        "ProfitCenterID":2030
+    },
+    {
+        "companyname":"SG51-SG51-Multipro Singapore PTE",
+        "companyID":2889,
+        "ProfitCenterName":"2070-Multipro Singapore PTE",
+        "ProfitCenterID":2070
+    },
+    {
+        "companyname":"Infinity Logistics LFZ Enterprises",
+        "companyID":2888,
+        "ProfitCenterName":"2060-Infinity Logistics LFZ Enterprises",
+        "ProfitCenterID":2060
+    },
+    {
+        "companyname":"NG52-NG52-Nikko Industries Limited",
+        "companyID":2887,
+        "ProfitCenterName":"2050-Nikko Industries Limited",
+        "ProfitCenterID":2050
+    },
+    {
+        "companyname":"NG51-NG51-Stretch Fibres Nigeria",
+        "companyID":2886,
+        "ProfitCenterName":"2040-Stretch Fibres Nigeria",
+        "ProfitCenterID":2040
+    },
+    {
+        "companyname":"SG10-SG10-Enriched PTE Ltd",
+        "companyID":2801,
+        "ProfitCenterName":"1902-Enriched PTE Ltd",
+        "ProfitCenterID":1902
+    },
+    {
+        "companyname":"AE10-AE10-Infinity FZCO",
+        "companyID":2704,
+        "ProfitCenterName":"1901-Infinity FZCO",
+        "ProfitCenterID":1901
+    }
+]

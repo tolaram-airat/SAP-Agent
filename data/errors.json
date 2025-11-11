@@ -1,0 +1,422 @@
+[
+    {
+        "module": "MM (Materials Management)",
+        "issuename": "Material XXXX does not exist in plant YYYY",
+        "issuedescription": "Material master record missing or not extended to plant",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify material number correctness. 2. Check if material is extended to plant via MM03. 3. If not extended, request extension. 4. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "Common during PO or production order creation in S/4HANA"
+    },
+    {
+        "module": "MM",
+        "issuename": "Material XXXX is flagged for deletion",
+        "issuedescription": "Material marked for deletion and hence unavailable",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Confirm deletion flag in MM03. 2. Request removal of deletion flag if needed. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "May affect procurement or sales"
+    },
+    {
+        "module": "SD (Sales & Distribution)",
+        "issuename": "Customer XXXX does not exist",
+        "issuedescription": "Customer master record missing or incorrect",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check customer number in BP. 2. Verify if customer is blocked or deleted. 3. Request creation or unblock. 4. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3425,
+        "notes": "Happens during order or billing in S/4HANA"
+    },
+    {
+        "module": "SD",
+        "issuename": "Sales area XXXX not assigned to customer XXXX",
+        "issuedescription": "Sales area missing in customer master",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify sales area assignment in BP. 2. Request addition of missing sales area. 3a. If data exist tell user to check data entry. 3b. If data doesn't exist Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3425,
+        "notes": "Affects order entry"
+    },
+    {
+        "module": "FI (Financial Accounting)",
+        "issuename": "Vendor XXXX does not exist",
+        "issuedescription": "Vendor master missing or inactive",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify vendor in BP. 2. Check if vendor is blocked or deleted. 3. Request creation or unblock. 4. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Relevant for AP transactions"
+    },
+    {
+        "module": "FI",
+        "issuename": "Company code XXXX not assigned to vendor XXXX",
+        "issuedescription": "Vendor not assigned to the company code",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check vendor-company code assignment in BP. 2. Request assignment if missing. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Affects posting vendor invoices"
+    },
+    {
+        "module": "PP (Production Planning)",
+        "issuename": "Routing not found for material XXXX",
+        "issuedescription": "Routing master data missing for production",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check routing in CA03. 2. Request creation if missing. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3429,
+        "notes": "Impacts production order release"
+    },
+    {
+        "module": "PP",
+        "issuename": "Work center XXXX does not exist",
+        "issuedescription": "Work center master missing or inactive",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify work center in CR03. 2. Request creation or activation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3429,
+        "notes": "Required for routing & capacity planning"
+    },
+    {
+        "module": "QM (Quality Management)",
+        "issuename": "Inspection plan not found for material XXXX",
+        "issuedescription": "Inspection plan missing",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check inspection plan in QA03. 2. Request creation if missing. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3430,
+        "notes": "Important for quality checks"
+    },
+    {
+        "module": "QM",
+        "issuename": "Quality info record not found for material XXXX and vendor YYYY",
+        "issuedescription": "Missing quality info record for vendor-material combo",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify quality info record. 2. Request creation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3430,
+        "notes": "Needed for vendor quality assessment"
+    },
+    {
+        "module": "CO (Controlling)",
+        "issuename": "Cost center XXXX does not exist",
+        "issuedescription": "Missing cost center master data",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check cost center in KS03. 2. Request creation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3423,
+        "notes": "Affects internal postings"
+    },
+    {
+        "module": "CO",
+        "issuename": "Profit center XXXX does not exist",
+        "issuedescription": "Missing profit center master data",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify profit center in KE53. 2. Request creation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3423,
+        "notes": "Used for reporting and controlling"
+    },
+    {
+        "module": "TM (Transportation Management)",
+        "issuename": "Transportation zone XXXX does not exist",
+        "issuedescription": "Missing transportation zone data",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check zone in TM transaction. 2. Request creation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3529,
+        "notes": "Affects route planning"
+    },
+    {
+        "module": "TM",
+        "issuename": "Carrier XXXX not found",
+        "issuedescription": "Carrier master missing",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify carrier in TM. 2. Request master data addition. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3529,
+        "notes": "Critical for freight processing"
+    },
+    {
+        "module": "PM (Plant Maintenance)",
+        "issuename": "Equipment XXXX does not exist",
+        "issuedescription": "Missing equipment master",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Check equipment in IE03. 2. Request creation if missing. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3427,
+        "notes": "Needed for maintenance processing"
+    },
+    {
+        "module": "PM",
+        "issuename": "Functional location XXXX does not exist",
+        "issuedescription": "Missing functional location master data",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Verify functional location in IL03. 2. Request creation. 3. Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3427,
+        "notes": "Used for asset hierarchy"
+    },
+    {
+        "module": "FI",
+        "issuename": "G/L account 21160000 GH50 is blocked for posting in company code XXXX",
+        "issuedescription": "G/L account is blocked for posting, either at chart of accounts or CC level",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use FS00 to check G/L account status in chart of accounts and company code. 2. Check if the account is blocked in 'Control Data' or 'Company Code Data'. 3. If needed, request unblocking via Finance master data process. 4. Assign to consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Journal entries, Invoice posting"
+    },
+    {
+        "module": "FI",
+        "issuename": "G/L account XXXX is not a reconciliation account",
+        "issuedescription": "Wrong type of G/L used in sub-ledger postings",
+        "solutiontype": "User Guidance",
+        "stepbystep": "1. Use FS00 to check the account type. 2. For vendor/customer subledger, only reconciliation accounts are allowed. 3. Guide user to select a correct account or raise correction request.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Accounts Payable/Receivable"
+    },
+    {
+        "module": "CO",
+        "issuename": "Cost center XXXX is blocked for postings",
+        "issuedescription": "Cost center is blocked in master data",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use KS03 to view the cost center. 2. Check if it is blocked under control data. 3. If yes, raise a request to unblock or use an active cost center.",
+        "logcategory": 3421,
+        "logsubcategory": 3423,
+        "notes": "Internal orders, Expense booking"
+    },
+    {
+        "module": "FI",
+        "issuename": "Account XXXX not defined for tax code XX in chart of accounts YYYY",
+        "issuedescription": "Tax-relevant G/L account not maintained",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use FS00 to check G/L account assignment to tax code. 2. If missing, escalate to Finance team to maintain configuration.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Tax postings, Vendor/customer docs"
+    },
+    {
+        "module": "FI",
+        "issuename": "Posting not allowed to account type 'S' with G/L account XXXX",
+        "issuedescription": "Account is not configured for cost element/cost object",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use FS00 to verify account type and allowed postings. 2. Confirm if account is defined as cost/revenue account. 3. If not, raise request for master data adjustment.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Cost postings, Expense allocation"
+    },
+    {
+        "module": "FI-AA",
+        "issuename": "Asset XXXX not in company code YYYY",
+        "issuedescription": "Asset not created in the specified company code",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use AS03 to check if asset exists in that company code. 2. If missing, request asset master creation. 3. Assign to Asset Accounting consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Asset postings, Acquisitions"
+    },
+    {
+        "module": "FI-AA",
+        "issuename": "Asset XXXX is blocked for posting",
+        "issuedescription": "Asset is blocked in master data (e.g., status not set to capitalized)",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use AS03 to check asset status. 2. If blocked, review asset master data fields. 3. Request unblocking if appropriate.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Asset transactions, Depreciation"
+    },
+    {
+        "module": "FI",
+        "issuename": "Profit center XXXX not found in controlling area YYYY",
+        "issuedescription": "Profit center is missing or not assigned properly",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use KE53 to verify profit center in controlling area. 2. If not found, request profit center creation or extension.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "CO posting, Internal reporting"
+    },
+    {
+        "module": "FI",
+        "issuename": "Bank key XXXX does not exist in country XX",
+        "issuedescription": "Bank key not created for the relevant country",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use FI03 to check if bank key exists. 2. If not, request new bank master creation. 3. Assign to finance master data team.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Vendor/customer payments"
+    },
+    {
+        "module": "FI",
+        "issuename": "Business partner XXXX is not assigned to a customer/vendor role",
+        "issuedescription": "BP exists but missing required role (e.g., vendor or customer)",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use BP transaction to check roles. 2. Confirm if role FI Vendor / FI Customer is assigned. 3. If missing, request role assignment update.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Customer/vendor transactions"
+    },
+    {
+        "module": "FI/SD",
+        "issuename": "Business partner XXXX does not have role FLVN00",
+        "issuedescription": "BP created but not assigned vendor role (FLVN00)",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use BP to check assigned roles. 2. If FLVN00 is missing, raise a request to extend BP with vendor role.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "AP posting, Vendor processes"
+    },
+    {
+        "module": "FI/SD",
+        "issuename": "Business partner XXXX does not have role FLCU01",
+        "issuedescription": "BP created but missing customer role (FLCU01)",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use BP to check customer role assignment. 2. Request extension to role FLCU01 (Customer - FI).",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Customer invoice, Sales orders"
+    },
+    {
+        "module": "FI",
+        "issuename": "Company code XXXX data missing for business partner XXXX",
+        "issuedescription": "BP is not extended to the company code",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use BP → Company Code view to verify. 2. Raise a request for BP extension to the relevant company code.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "AP/AR processing, Payment terms"
+    },
+    {
+        "module": "FI",
+        "issuename": "Purchasing organization XXXX data missing for BP XXXX",
+        "issuedescription": "Vendor BP not extended to purchasing org",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use BP → Purchasing Org view to verify. 2. Request extension to relevant purchasing org.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "PO creation, Source determination"
+    },
+    {
+        "module": "FI",
+        "issuename": "Bank details missing for vendor XXXX in company code YYYY",
+        "issuedescription": "No bank maintained in BP for vendor",
+        "solutiontype": "User Guidance",
+        "stepbystep": "1. Use BP → Vendor → Payment Transactions tab. 2. Add or request entry of bank details.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Vendor payments"
+    },
+    {
+        "module": "MM",
+        "issuename": "Material XXXX does not exist or is not activated",
+        "issuedescription": "Material master record is missing or the material is created but not activated for use",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Confirm the material number is correct. 2. Use MM03 to check if the material exists. 3. If material exists but inactive, check the status in Basic Data 1 view (e.g., 'Material status' field). 4. Request activation if needed. 5. If material missing, request creation. 6. Raise a log and assign to master data consultant if unresolved.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "Purchasing, Inventory, Production"
+    },
+    {
+        "module": "MM",
+        "issuename": "Material XXXX is not maintained in plant YYYY",
+        "issuedescription": "Material master exists but not extended to the plant",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use MM03 to check material views. 2. Confirm plant data is missing. 3. Raise request for material extension to the plant. 4. Escalate to master data team if needed.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "Purchasing, Production"
+    },
+    {
+        "module": "PP",
+        "issuename": "No BOM exists for material XXXX in plant YYYY",
+        "issuedescription": "BOM not created for the material in the specified plant",
+        "solutiontype": "User Guidance",
+        "stepbystep": "1. Use CS03 to check BOM. 2. If BOM missing for plant, request BOM creation for that plant.",
+        "logcategory": 3421,
+        "logsubcategory": 3429,
+        "notes": "Production Planning"
+    },
+    {
+        "module": "PP",
+        "issuename": "No routing exists for material XXXX in plant YYYY",
+        "issuedescription": "Routing not defined for the material at that plant",
+        "solutiontype": "User Guidance + Escalation",
+        "stepbystep": "1. Use CA03 to check routing. 2. Confirm plant assignment. 3. Request routing extension to the correct plant.",
+        "logcategory": 3421,
+        "logsubcategory": 3429,
+        "notes": "Production Order Scheduling"
+    },
+    {
+        "module": "MM",
+        "issuename": "Material XXXX is blocked for procurement",
+        "issuedescription": "Material is flagged as blocked in plant or procurement view",
+        "solutiontype": "User Guidance",
+        "stepbystep": "1. Use MM03 to check procurement view. 2. Look for 'Procurement Block' field. 3. Request block removal if justified.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "Purchasing, Planning"
+    },
+    {
+        "module": "FI",
+        "issuename": "G/L account 21160000 GH50 is blocked for posting",
+        "issuedescription": "G/L account is blocked for a specific company code or for certain posting types",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use FS03 to check account status. 2. Review block flags (posting block, company code block). 3. Raise request to unblock the account via finance or COE team.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Journal entries, Postings"
+    },
+    {
+        "module": "FI",
+        "issuename": "Vendor XXXX is blocked for posting in company code YYYY",
+        "issuedescription": "Vendor is blocked from posting at the company code level",
+        "solutiontype": "User Guidance",
+        "stepbystep": "1. Use BP or XK05 to verify blocking. 2. Request vendor unblock through proper workflow.",
+        "logcategory": 3421,
+        "logsubcategory": 3422,
+        "notes": "Vendor payments"
+    },
+    {
+        "module": "MM/SD",
+        "issuename": "Valuation class missing for material XXXX",
+        "issuedescription": "Material missing valuation class which affects posting in MM and SD",
+        "solutiontype": "User Guidance + Mandatory Escalation",
+        "stepbystep": "1. Use MM03 → Accounting View. 2. Verify if valuation class is maintained. 3. Raise request to master data team to correct or update the valuation class.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "GR Posting, Inventory Value"
+    },
+    {
+        "module": "SD",
+        "issuename": "Pricing procedure not found for sales area XXXX",
+        "issuedescription": "Missing pricing procedure configuration linked to customer/material",
+        "solutiontype": "User Guidance + Functional Escalation",
+        "stepbystep": "1. Verify sales area and customer master settings. 2. Escalate to SD config team to check pricing determination procedure (OVKK settings).",
+        "logcategory": 3421,
+        "logsubcategory": 3425,
+        "notes": "Sales Order Pricing"
+    },
+    {
+        "module": "MM/FI",
+        "issuename": "Account determination not possible for material XXXX",
+        "issuedescription": "Material/account assignment not complete – system cannot determine G/L",
+        "solutiontype": "User Guidance + Functional Escalation",
+        "stepbystep": "1. Use MM03 to verify material type/valuation class. 2. Escalate to MM/FI config team to verify OBYC settings (Automatic Account Determination).",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "GR/IR Postings, PO Invoicing"
+    },
+    {
+        "module": "MM (Materials Management)",
+        "issuename": "Material XXXX does not exist in sales org",
+        "issuedescription": "Material master record missing or not extended to sales org.",
+        "solutiontype": "User Guidance + Functional Escalation",
+        "stepbystep": "1. Verify material number correctness. 2. Check if material is extended to plant via MM03. 3. If not extended, Raise a log and assign to master data consultant.",
+        "logcategory": 3421,
+        "logsubcategory": 3426,
+        "notes": "Common during PO or production order creation in S/4HANA"
+    }
+]
